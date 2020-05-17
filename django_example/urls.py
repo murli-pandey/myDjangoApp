@@ -20,4 +20,5 @@ from my_app import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.index, name="homepage"),
+    path('about', views.about, name="My About Page")
 ]
